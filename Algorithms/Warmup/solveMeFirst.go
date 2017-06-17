@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func solveMeFirst(a, b uint32) uint32 {
+func solveMeFirst(a, b uint) uint {
 	return a + b
 }
 
 func main() {
-	var a, b, res uint32
+	var a, b, res uint
 
-	fmt.Scanf("%v\n%v", &a, &b)
+	fmt.Scan(&a, &b)
 
 	res = solveMeFirst(a, b)
 	fmt.Println(res)
